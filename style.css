@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: hotpink;
+    background-color: rgb(225, 105, 255);
   }
      
-  h1 {
+  h1 { 
     text-align: center;
     margin-top: 50px;
-    color: blueviolet;
+    color:black;
   
   }
      
@@ -31,7 +31,7 @@ body {
   }
      
   button:active {
-      transform: scale(1.00);
+      transform: scale(2.00);
   }
      
   .letter {

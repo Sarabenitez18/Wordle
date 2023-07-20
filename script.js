@@ -23,7 +23,7 @@ BOTON.addEventListener("click", intentar);
 function intentar(){
     const INTENTO = leerIntento();
     if (INTENTO==palabra){
-       terminar("<h1>ganaste! :) </h1>")
+       terminar("<h1> GANASTE! :) </h1>")
        return 
     }
     const GRID = document.getElementById("grid");
@@ -49,8 +49,8 @@ function intentar(){
     GRID.appendChild(ROW)
     intentos--
     if (intentos==0){
-        terminar ("<h1> perdiste :(<h1>")
-        //return
+        terminar (`<h1> PERDISTE :( La palabra era ${palabra}<h1>`)
+        
     }
 }
 function leerIntento(){
